@@ -9,3 +9,5 @@ name = "day1"
 path = "src/day1/main.rs"
 
 [dependencies]
+regex = "1.10.2"
+reverse_str = "0.1.0"
