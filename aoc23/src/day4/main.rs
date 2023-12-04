@@ -1,15 +1,6 @@
 use std::{env, fs};
 use regex::Regex;
 
-
-#[derive(Clone, Debug)]
-struct NumberMatch {
-    number: u32,
-    row: usize,
-    start: usize,
-    end: usize,
-}
-
 fn main() {
     let file_path = "src/day4/day4.txt";
 
