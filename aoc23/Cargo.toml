@@ -20,6 +20,11 @@ path = "src/day3/main.rs"
 name = "day4"
 path = "src/day4/main.rs"
 
+[[bin]]
+name = "day5"
+path = "src/day5/main.rs"
+
+
 [dependencies]
 regex = "1.10.2"
 reverse_str = "0.1.0"
